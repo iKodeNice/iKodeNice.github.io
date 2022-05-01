@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+ background: ;
+ color: ;
+ -webkit-font-smoothing: antialiased;
+}
+
+body, input, button {
+ font-size: ;
+ font-family: ;
+}
+
+button {
+ cursor: pointer;
+}
+
+/*Code starts bellow this*/
+* {
+  /* outline: 1px solid red; */
+  font-family: Helvetica;
+}
+
+header {
+  background-image: url(./pattern.jpeg);
+  padding: 150px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+header h1 {
+  font-family: Helvetica;
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgba(35, 34, 34, 0.596);
+  border-radius: 15px;
+
+}
+
+main {
+  background-image: url(./blue.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+section {
+  background-color: rgba(169, 164, 164, 0.445);
+  
+}
+p {
+  text-align: center;
+  color: aliceblue;
+
+}
+
+h4 {
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+  color: aliceblue;
+}
+
+span {
+  color: rgb(45, 56, 205);
+  font-weight: bold;
+}
+
+div h2 {
+  padding: 30px;
+}
+
+.brushes h2 {
+  background-color: mediumseagreen;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  width: fit-content;
+  border-radius: 5px;
+  
+
+}
+
+.frames h2 {
+  background-color: lightcoral;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  width: fit-content;
+  border-radius: 5px;
+  
+  
+}
+
+.paint h2 {
+  background-color: skyblue;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  width: fit-content;
+  border-radius: 5px;
+  
+  
+}
+
+.frames {
+  border: 10px solid whitesmoke;
+  padding: 10px;
+}
+.paint {
+  border: 10px solid whitesmoke;
+  padding: 10px;
+}
+.brushes {
+  border: 10px solid whitesmoke;
+  padding: 10px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+button:hover {
+  background-color: rgb(92, 154, 168);
+}
+
+button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 9px;
+  border-radius: 5px;
+  background-color: rgb(234, 217, 197);
+}
+
+footer {
+  background-color: rgba(95, 158, 160, 0.62);
+  height: 120px;
+  text-align: center;
+}
+
+footer h2 {
+  padding-top: 15px;
+}
